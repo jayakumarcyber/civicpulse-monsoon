@@ -676,5 +676,3 @@ The project uses structured environment variables. Sensitive credentials should 
 This software is developed as a working prototype for the **Smart India Hackathon 2026** under Problem Statement **SIH26206 (Disaster Management)** by **Team INNOVEX (DM07)**. 
 
 All rights reserved. Unauthorized commercial exploitation is prohibited.
-#   c i v i c p u l s e - m o n s o o n  
- 
