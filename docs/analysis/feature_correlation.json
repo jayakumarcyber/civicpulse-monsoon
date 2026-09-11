@@ -1,0 +1,11 @@
+{
+  "dataset": "CivicPulse Monsoon Historical Features",
+  "data_source_type": "DEMO / SYNTHETIC DATA",
+  "correlations": {
+    "rainfall_last_24h_vs_waterlogging": 0.78,
+    "elevation_m_vs_waterlogging": -0.64,
+    "drainage_quality_score_vs_waterlogging": -0.58,
+    "historical_incident_density_vs_waterlogging": 0.71
+  },
+  "note": "HISTORICAL ANALYSIS ONLY: Correlation does not prove direct causation."
+}

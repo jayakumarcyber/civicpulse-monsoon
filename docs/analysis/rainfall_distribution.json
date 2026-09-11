@@ -1,0 +1,12 @@
+{
+  "distribution_by_range": {
+    "0-10 mm": 1250,
+    "10-25 mm": 840,
+    "25-50 mm": 380,
+    "50-75 mm": 140,
+    "75-100 mm": 58,
+    "100+ mm": 20
+  },
+  "extreme_monsoon_events": 20,
+  "data_source_type": "DEMO / SYNTHETIC DATA"
+}

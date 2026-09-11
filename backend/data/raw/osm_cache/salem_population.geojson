@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 609,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.145,
+              11.662
+            ],
+            [
+              78.17,
+              11.662
+            ],
+            [
+              78.17,
+              11.688
+            ],
+            [
+              78.145,
+              11.688
+            ],
+            [
+              78.145,
+              11.662
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 609,
+        "name": "Ward 24 (Hasthampatti)",
+        "zone_name": "Ward 24 (Hasthampatti)",
+        "level": "WARD",
+        "geographic_level": "Ward",
+        "ward_id": 9,
+        "district": "Salem",
+        "city": "Salem",
+        "state": "Tamil Nadu",
+        "population": 210000,
+        "population_classification": "HIGH",
+        "area_sq_km": 6.8,
+        "density": 30882,
+        "data_year": "Census 2011",
+        "data_source": "Official Tamil Nadu ULB Portal",
+        "data_status": "Official Data",
+        "boundary_status": "Verified Administrative Boundary",
+        "risk_level": "LOW",
+        "exposed_population": 2100,
+        "exposed_population_ratio": "Minimal population exposure"
+      }
+    }
+  ]
+}

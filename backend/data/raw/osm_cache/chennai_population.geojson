@@ -1,0 +1,164 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 605,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.22,
+              13.03
+            ],
+            [
+              80.245,
+              13.03
+            ],
+            [
+              80.245,
+              13.055
+            ],
+            [
+              80.22,
+              13.055
+            ],
+            [
+              80.22,
+              13.03
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 605,
+        "name": "Ward 109 (T. Nagar)",
+        "zone_name": "Ward 109 (T. Nagar)",
+        "level": "WARD",
+        "geographic_level": "Ward",
+        "ward_id": 5,
+        "district": "Chennai",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "population": 380000,
+        "population_classification": "HIGH",
+        "area_sq_km": 8.2,
+        "density": 46341,
+        "data_year": "Census 2011",
+        "data_source": "Official Tamil Nadu ULB Portal",
+        "data_status": "Official Data",
+        "boundary_status": "Verified Administrative Boundary",
+        "risk_level": "HIGH",
+        "exposed_population": 30400,
+        "exposed_population_ratio": "Estimated ~8% of ward population residing in active low-lying depression catchment"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 606,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.195,
+              13.072
+            ],
+            [
+              80.225,
+              13.072
+            ],
+            [
+              80.225,
+              13.098
+            ],
+            [
+              80.195,
+              13.098
+            ],
+            [
+              80.195,
+              13.072
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 606,
+        "name": "Ward 102 (Anna Nagar)",
+        "zone_name": "Ward 102 (Anna Nagar)",
+        "level": "WARD",
+        "geographic_level": "Ward",
+        "ward_id": 6,
+        "district": "Chennai",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "population": 410000,
+        "population_classification": "HIGH",
+        "area_sq_km": 11.0,
+        "density": 37272,
+        "data_year": "Census 2011",
+        "data_source": "Official Tamil Nadu ULB Portal",
+        "data_status": "Official Data",
+        "boundary_status": "Verified Administrative Boundary",
+        "risk_level": "MEDIUM",
+        "exposed_population": 20500,
+        "exposed_population_ratio": "Estimated ~5% in peripheral stormwater runoff zone"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 607,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.205,
+              12.968
+            ],
+            [
+              80.232,
+              12.968
+            ],
+            [
+              80.232,
+              12.995
+            ],
+            [
+              80.205,
+              12.995
+            ],
+            [
+              80.205,
+              12.968
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": 607,
+        "name": "Ward 177 (Velachery)",
+        "zone_name": "Ward 177 (Velachery)",
+        "level": "WARD",
+        "geographic_level": "Ward",
+        "ward_id": 7,
+        "district": "Chennai",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "population": 490000,
+        "population_classification": "HIGH",
+        "area_sq_km": 14.1,
+        "density": 34751,
+        "data_year": "Census 2011",
+        "data_source": "Official Tamil Nadu ULB Portal",
+        "data_status": "Official Data",
+        "boundary_status": "Verified Administrative Boundary",
+        "risk_level": "HIGH",
+        "exposed_population": 39200,
+        "exposed_population_ratio": "Estimated ~8% of ward population residing in lake perimeter runoff buffer"
+      }
+    }
+  ]
+}

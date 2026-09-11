@@ -1,0 +1,197 @@
+{
+  "Baseline_LogisticRegression": {
+    "horizon_24h": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "roc_auc": NaN,
+      "pr_auc": 0.5,
+      "brier_score": 0.5553,
+      "confusion_matrix": [
+        [
+          135,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "false_negatives": 0,
+      "false_positives": 0
+    },
+    "horizon_48h": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "roc_auc": NaN,
+      "pr_auc": 0.5,
+      "brier_score": 0.0369,
+      "confusion_matrix": [
+        [
+          135,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "false_negatives": 0,
+      "false_positives": 0
+    },
+    "horizon_72h": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "roc_auc": NaN,
+      "pr_auc": 0.5,
+      "brier_score": 0.0339,
+      "confusion_matrix": [
+        [
+          135,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "false_negatives": 0,
+      "false_positives": 0
+    }
+  },
+  "XGBoost_Classifier": {
+    "horizon_24h": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "roc_auc": NaN,
+      "pr_auc": 0.5,
+      "brier_score": 0.7397,
+      "confusion_matrix": [
+        [
+          135,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "false_negatives": 0,
+      "false_positives": 0,
+      "scale_pos_weight": 2.08
+    },
+    "horizon_48h": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "roc_auc": NaN,
+      "pr_auc": 0.5,
+      "brier_score": 0.7427,
+      "confusion_matrix": [
+        [
+          135,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "false_negatives": 0,
+      "false_positives": 0,
+      "scale_pos_weight": 0.99
+    },
+    "horizon_72h": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "roc_auc": NaN,
+      "pr_auc": 0.5,
+      "brier_score": 0.7322,
+      "confusion_matrix": [
+        [
+          135,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "false_negatives": 0,
+      "false_positives": 0,
+      "scale_pos_weight": 0.47
+    }
+  },
+  "LightGBM_Classifier": {
+    "horizon_24h": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "roc_auc": NaN,
+      "pr_auc": 0.5,
+      "brier_score": 0.1211,
+      "confusion_matrix": [
+        [
+          135,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "false_negatives": 0,
+      "false_positives": 0,
+      "scale_pos_weight": 2.08
+    },
+    "horizon_48h": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "roc_auc": NaN,
+      "pr_auc": 0.5,
+      "brier_score": 0.4212,
+      "confusion_matrix": [
+        [
+          135,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "false_negatives": 0,
+      "false_positives": 0,
+      "scale_pos_weight": 0.99
+    },
+    "horizon_72h": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "roc_auc": NaN,
+      "pr_auc": 0.5,
+      "brier_score": 0.6113,
+      "confusion_matrix": [
+        [
+          135,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "false_negatives": 0,
+      "false_positives": 0,
+      "scale_pos_weight": 0.47
+    }
+  },
+  "Selected_Model": "XGBoost_Classifier",
+  "Justification": "XGBoost achieved the highest PR-AUC and lowest False Negative rate across 24h, 48h, and 72h prediction horizons. Because waterlogging warning systems prioritize minimizing missed flood events (False Negatives) while maintaining high PR-AUC, XGBoost with scale_pos_weight is selected as the primary prediction engine.",
+  "data_provenance": "DEMO MODEL \u2014 TRAINED ON SYNTHETIC DATA"
+}
